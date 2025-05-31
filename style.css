@@ -8,7 +8,7 @@ header {
   background-color: yellowgreen;
 }
 .section-1{
-  background-color: yellowgreen;
+    background-color: yellowgreen;
   height: 100vh;
   padding: 50px;
   display: flex;
@@ -18,14 +18,22 @@ header {
   background-image: url("./assets/images/guilty-gear-sol.jpg");
   background-size: cover;
 }
-.parte-presentacion h1{
-  background-color: aliceblue;
+.parte-central div h1{
+  justify-self: center;
+  background-color: white;
   font-size: 40px;
   margin-bottom: 10px;
   color: black;
 }
-.presentacion p{
+.presentacion{
   background-color: white;
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 10px;
+}
+.sobre-mi{
+  justify-self: center;
+}
+.parte-sobre-mi div{
+  background-color: aqua;
+  justify-self: center;
 }
