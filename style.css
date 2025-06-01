@@ -3,20 +3,20 @@
   padding: 0;
 }
 header {
-  position: fixed;
+  position: center;
   width: 100%;
   background-color: yellowgreen;
 }
-.section-1{
-    background-color: yellowgreen;
+body{
+  background-image: url(./assets/images/gameboy-advance.png);
   height: 100vh;
   padding: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url("./assets/images/guilty-gear-sol.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  padding-left: 25rem;
+  padding-right: 25rem;
 }
 .parte-central div h1{
   justify-self: center;
@@ -36,4 +36,8 @@ header {
 .parte-sobre-mi div{
   background-color: aqua;
   justify-self: center;
+}
+.parte-contactos{
+  background-color: aqua;
+  position: center;
 }
