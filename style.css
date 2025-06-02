@@ -2,10 +2,8 @@
   margin: 0;
   padding: 0;
 }
-header {
-  position: center;
-  width: 100%;
-  background-color: yellowgreen;
+h1, h2 , h3 ,h4 ,h5 ,h6, p{
+  font-family: "Press Start 2p";
 }
 body{
   background-image: url(./assets/images/gameboy-advance.png);
@@ -17,6 +15,9 @@ body{
   background-attachment: fixed;
   padding-left: 25rem;
   padding-right: 25rem;
+}
+body h1{
+  color: white;
 }
 .parte-central div h1{
   justify-self: center;
