@@ -4,6 +4,7 @@
 }
 h1, h2 , h3 ,h4 ,h5 ,h6, p{
   font-family: "Press Start 2p";
+  font-size: smaller;
 }
 body{
   background-image: url(./assets/images/gameboy-advance.png);
@@ -13,21 +14,27 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding-left: 25rem;
-  padding-right: 25rem;
+  padding-left: 24rem;
+  padding-right: 24rem;
 }
 body h1{
   color: white;
 }
-.parte-central div h1{
+body h3{
+  color: white;
+}
+header{
+  position: fixed;
+  width: 43%;
+}
+
+.parte-central div h2{
   justify-self: center;
-  background-color: white;
   font-size: 40px;
   margin-bottom: 10px;
   color: black;
 }
 .presentacion{
-  background-color: white;
   font-size: 30px;
   margin-bottom: 10px;
 }
@@ -35,10 +42,11 @@ body h1{
   justify-self: center;
 }
 .parte-sobre-mi div{
-  background-color: aqua;
   justify-self: center;
 }
-.parte-contactos{
-  background-color: aqua;
-  position: center;
+footer{
+  justify-self: center;
+}
+footer div{
+  justify-self: center;
 }
